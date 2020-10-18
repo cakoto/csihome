@@ -1,0 +1,14 @@
+server:
+  port: 8120 # 服务端口
+
+spring:
+  profiles:
+    active: dev # 环境设置
+  application:
+    name: service-loggin # 服务名
+
+baidu:
+  face:
+    appId: 22838702
+    apiKey: V4izTsjrfYTIttFkIlKbmEDj
+    secretKey: RuL89hMcaLY5wAtQqxcw5K1ft8YpCUP0
